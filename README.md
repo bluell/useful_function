@@ -5,9 +5,25 @@ The useful function for responsive design.
 <strong>html5.js</strong> - For IE8 to support HTML5.<br />
 <strong>respond.js</strong> - For IE8 to support Media Queries.
 
-<strong>Device.getDevice()</strong> - Get the device accoring browser size.<br />
-<strong>Responsivebase.get_real_device()</strong> - Get the real device or browser.<br />
-<strong>Responsivebase.browser_flash_support()</strong> - Verify Flash support.<br />
-<strong>Responsivebase.jump_to_element(element)</strong> - Jumps the display to the position of a given element.<br />
-<strong>Responsivebase.set_height(element, reset, parent)</strong> - Set the elements have the same height.<br />
-<strong>Responsivebase.resize_media_elements()</strong> - Resize media elements acording to browser size.
+<strong>Device.getDevice()</strong><br />
+Get the device accoring browser size.<br />
+@return - String
+
+<strong>Responsivebase.get_real_device()</strong><br />
+Get the real device or browser.
+
+<strong>Responsivebase.browser_flash_support()</strong><br />
+Verify Flash support.
+
+<strong>Responsivebase.jump_to_element(element)</strong><br />
+Jumps the display to the position of a given element.<br />
+element - Will scroll to this element.
+
+<strong>Responsivebase.set_height(element, reset, parent)</strong><br />
+Set the elements have the same height.<br />
+element - The elements that need set same height.<br />
+reset   - Is set reset the height, Boolean.<br />
+parent  - The element's parent also need set the same height.
+
+<strong>Responsivebase.resize_media_elements()</strong><br />
+Resize media elements acording to browser size.
