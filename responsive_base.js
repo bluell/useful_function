@@ -35,6 +35,7 @@ var Responsivebase = {};
   
   /**
    * Jumps the display to the position of a given element.
+   * element - Will scroll to this element.
    */
   Responsivebase.jump_to_element = function(element) {
     var offset = element.offset();
@@ -80,7 +81,7 @@ var Responsivebase = {};
   };
   
   /**
-   * Resize media elements acording to window size.
+   * Resize media elements acording to browser size.
    */
   Responsivebase.resize_media_elements = function() {
   };
