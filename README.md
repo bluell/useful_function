@@ -27,21 +27,3 @@ parent  - The element's parent also need set the same height.
 
 <strong>Responsivebase.resize_media_elements()</strong><br />
 Resize media elements acording to browser size.
-
-## Developing with compass:
-
-### 1. Install [ruby](https://www.ruby-lang.org), windows can use [RubyInstaller](http://rubyinstaller.org/).
-
-### 2. Install [nodejs](https://nodejs.org/).
-
-### 3. Install [compass](http://compass-style.org/).
-
-### 4. Open terminal, then:
-
-```bash
-npm install --global gulp
-cd /your/path/to/accessibility_tool/src/
-npm install
-`npm start` for developing
-`npm run build` before commit
-```
